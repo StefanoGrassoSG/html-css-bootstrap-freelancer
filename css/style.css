@@ -1,2 +1,43 @@
-@import "debug.css";
+@import "mycolors.css";
 
+/*****************
+     MY-STYLE
+*****************/
+
+.img-container {
+    width: 12.5rem;
+}
+
+.line {
+    height: .1875rem;
+    width: 10%;
+    background-color: var(--my-text-color);
+    display: inline-block;
+    border-radius: .3125rem;
+}
+
+.line.black {
+    background-color: var(--my-text-secondary);
+    border-radius: .3125rem;
+}
+
+.bi-star-fill {
+    color: var(--my-text-color);
+}
+
+.container.black > * {
+    color: var(--my-text-secondary);
+}
+
+
+/***************
+    FOOTER
+***************/
+footer .circle {
+    display: inline-block;
+    width: 3.125rem;
+    border: .0625rem solid white;
+    line-height: 2.5rem;
+    text-align: center;
+    margin: 0 .3125rem;
+}

@@ -1,0 +1,31 @@
+/****************
+     MY-COLORS
+****************/
+
+:root {
+    --my-text-color: white;
+    --my-text-secondary: black;
+    --my-back-color-primary :#2C3E50;
+    --my-back-color-third: #3A546D;
+    --my-back-color-secondary: #1ABC9C;
+}
+
+.my-text {
+    color: var(--my-text-color)!important;
+}
+
+.my-text-second {
+    color: var(--my-text-secondary);
+}
+
+.my-back-primary {
+    background-color: var(--my-back-color-primary);
+}
+
+.my-back-secondary {
+    background-color: var(--my-back-color-secondary);
+}
+
+.my-back-third {
+    background-color: var(--my-back-color-third);
+}
